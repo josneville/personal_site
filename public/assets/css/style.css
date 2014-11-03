@@ -80,6 +80,7 @@ p{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 		padding: 5px;
 }
@@ -96,6 +97,7 @@ p{
 		display: flex;
 		-webkit-align-items: center; /* Safari 7.0+ */
 		align-items: center;
+		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 }
 .sub-content-header {
@@ -107,6 +109,7 @@ p{
 		display: flex;
 		-webkit-align-items: center; /* Safari 7.0+ */
 		align-items: center;
+		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 }
 .flipper-transformation-forward {
