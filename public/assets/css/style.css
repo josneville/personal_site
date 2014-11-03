@@ -69,6 +69,7 @@ p{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-webkit-flex-wrap: wrap; /* Safari 6.1+ */
 		flex-wrap: wrap;
 }
 .main-content {
@@ -86,7 +87,7 @@ p{
 		perspective: 1000;
 }
 .sub-content-main {
-		height: 90%;
+		height: 80%;
 		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
@@ -96,7 +97,7 @@ p{
 		justify-content: space-around;
 }
 .sub-content-header {
-		height: 10%;
+		height: 20%;
 		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
   	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
