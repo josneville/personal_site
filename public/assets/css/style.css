@@ -45,6 +45,8 @@ a, p, h1, h2, h3, h4, h5, h6{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-moz-align-items: center;
+		-ms-align-items: center;
 		-webkit-align-items: center; /* Safari 7.0+ */
 		align-items: center;
 }
@@ -80,6 +82,8 @@ p{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-moz-justify-content: space-around;
+		-ms-justify-content: space-around;
 		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 		padding: 5px;
@@ -95,8 +99,12 @@ p{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-moz-align-items: center;
+		-ms-align-items: center;
 		-webkit-align-items: center; /* Safari 7.0+ */
 		align-items: center;
+		-moz-justify-content: space-around;
+		-ms-justify-content: space-around;
 		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 }
@@ -107,8 +115,12 @@ p{
   	display: -ms-flexbox;      /* TWEENER - IE 10 */
   	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
+		-moz-align-items: center;
+		-ms-align-items: center;
 		-webkit-align-items: center; /* Safari 7.0+ */
 		align-items: center;
+		-moz-justify-content: space-around;
+		-ms-justify-content: space-around;
 		-webkit-justify-content: space-around; /* Safari 6.1+ */
 		justify-content: space-around;
 }
