@@ -34,12 +34,16 @@ a, p, h1, h2, h3, h4, h5, h6{
 		width: 100%: height: 100%;
 }
 .header {
-		height: 100px;
+		height: 10%;
 		width: 100%;
 		background-color: #009688;
 		box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.4);
 		margin: 0;
 		padding: 0;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
 		align-items: center;
 }
@@ -60,14 +64,19 @@ p{
 .split {
 		height: 100%;
 		width: 33.33%;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
 		flex-wrap: wrap;
 }
 .main-content {
-		height: -moz-calc(100% - 100px);
-		height: -webkit-calc(100% - 100px);
-		height: -o-calc(100% - 100px);
-		height: calc(100% - 100px);
+		height: 90%;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
 		justify-content: space-around;
 		padding: 5px;
@@ -77,16 +86,21 @@ p{
 		perspective: 1000;
 }
 .sub-content-main {
-		height: -moz-calc(100% - 50px);
-		height: -webkit-calc(100% - 50px);
-		height: -o-calc(100% - 50px);
-		height: calc(100% - 50px);
+		height: 90%;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
 }
 .sub-content-header {
-		height: 50px;
+		height: 10%;
+		display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  	display: -ms-flexbox;      /* TWEENER - IE 10 */
+  	display: -webkit-flex;     /* NEW - Chrome */
 		display: flex;
 		align-items: center;
 		justify-content: space-around;
@@ -234,5 +248,11 @@ p{
 		.split {
 				width: 100%;
 				height: 100%;
+		}
+		.header {
+				height: 100px;
+		}
+		.sub-content-header {
+				height: 50px
 		}
 }
